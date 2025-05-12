@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Hak Akses</title>
+    <!--CSS Hover-->
+    <style>
+
+    </style>
+</head>
+<body style="margin: 0; font-family: Arial, Helvetica, sans-serif; display: flex; height: 100vh;">
+
+    <!--Kiri-->
+    <div style="width: 200px; height: 100vh; background-color: white; border-right: 1px solid black; padding: 10px; display: flex; flex-direction: column; ">
+        <h1 style="font-size: 25px; text-align: center; padding: 12px ;margin-bottom: 30px; border: 1px solid black;"> Connect </h1>
+        
+        <a href="Pengguna.html" 
+        style="font-size: 23px; padding: 10px; text-decoration: none;color: black; border-radius: 5px">👤 Pengguna </a>
+        
+        <a href="Hak Akses.html"
+        style="font-size: 23px; background-color: black; color: white; padding: 10px; text-decoration: none; border-radius: 5px">
+        👥 Hak Akses </a>
+        
+        <a href="Log Out.html" 
+        style="font-size: 23px; padding: 10px; text-decoration: none;color: black;"> ↩ Keluar </a>
+
+    </div>
+    
+    <!--Kanan-->
+    <div style="flex: 1; padding: 20px; display: flex; flex-direction: column;">
+        
+        <!--Search Bar-->
+        <div style="margin-bottom: 18px;">
+            <input type="text" placeholder="Cari Hak Akses" 
+            style="width: 96%; padding: 20px; font-size: 12px; border: 2px solid black; border-radius: 6px;">
+        </div>
+
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="text-align: left; padding: 12px; border-bottom: 2px solid black;">no</th>
+                    <th style="text-align: center; padding: 12px; border-bottom: 2px solid black;">Hak Akses</th>
+                    <th style="text-align: center; padding: 12px; border-bottom: 2px solid black;">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 10px; border-bottom: 1px solid black;">1</td>
+                    <td style="padding: 10px; border-bottom: 1px solid black;text-align: center">Employee</td>
+                    <td style="padding: 10px; border-bottom: 1px solid black;text-align: center">
+                        <button style="background: none; border: none;font-size: 18px;">✏️</button>
+                        <button style="background: none; border: none;font-size: 18px">🗑️</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 10px; border-bottom: 2px solid black;">2</td>
+                    <td style="padding: 10px; border-bottom: 2px solid black;text-align: center">Admin</td>
+                    <td style="padding: 10px; border-bottom: 2px solid black;text-align: center">
+                        <button style="background: none; border: none;font-size: 18px;">✏️</button>
+                        <button style="background: none; border: none;font-size: 18px">🗑️</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button style="margin-top: auto; align-self: flex-end; background: grey; padding: 10px 14px; font-weight: bold; font-size: 20px; cursor: pointer;"> + </button>
+    
+</body>
+</html>
